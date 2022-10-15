@@ -175,19 +175,25 @@ i{
 }
 
 .menu-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    border: 2px solid red ;
+    margin: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    text-align: left; 
+    display: inline-block
+
+}
+
+.price {
+    text-align: right;
 }
 
 .menu-section h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .menu-item h4 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -199,6 +205,40 @@ footer {
     padding-top: 2.5vh;
     font-size: 2rem;
     background-color: rgb(0, 4, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+   
+    
+}
+
+footer .signupbtn {
+    color: black;
+    font-size: 2rem;
+    margin-left: 0;
+}
+
+input {
+    font-size: 2rem;
+}
+
+label {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.mails {
+    border: 1px solid red;
+    margin-right: 30rem;
+    
 }
 
 /* mobile media query */
