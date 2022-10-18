@@ -72,7 +72,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 1536px;
-    margin-left: 11rem;
+    margin-left: 11rem; 
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -172,6 +172,7 @@ i{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch;
 
 }
 
@@ -195,21 +196,28 @@ i{
 .menu-section h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+
 }
 
 .menu-item h4 {
     font-size: 2rem;
-    display: inline-block;    
+    display: inline-block;
 }
 
-.price {
 
+.price {
+   justify-content: flex-end;
 }
 
 .menu-item {
     margin-bottom: 2rem;
+    
 }
- 
+
+.especial {
+    font-style: italic;
+    font-size: 1.5rem;
+}
 
 
 
@@ -265,6 +273,11 @@ label {
 
 /* mobile media query */
 @media (max-width: 428px) {
+
+    #container {
+    
+        margin-left: 0%;
+    }
     /* header section */
     .header-title {
         width: 75%;
@@ -272,6 +285,8 @@ label {
         text-align: center;
         font-size: 4rem;
     }
+
+
 
     /* menu */
     .menu {
