@@ -396,9 +396,16 @@ label {
         margin-left:0%;    
     }
 
-    .signupbtn{
-        width: 76%;
+    input {
+        font-size: 1rem;
+        width: 85%;
     }
+
+    .signupbtn{
+        width: 85%;
+        font-size: 0.5rem;
+    }
+
 
     .footeranchor {
         margin-right: 0%;
